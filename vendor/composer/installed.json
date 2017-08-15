@@ -1,0 +1,240 @@
+[
+    {
+        "name": "maciejczyzewski/bottomline",
+        "version": "0.0.9",
+        "version_normalized": "0.0.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/maciejczyzewski/bottomline.git",
+            "reference": "b3d6c4ec2c3eedacf4ab6337cc216149e4af3fb0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/maciejczyzewski/bottomline/zipball/b3d6c4ec2c3eedacf4ab6337cc216149e4af3fb0",
+            "reference": "b3d6c4ec2c3eedacf4ab6337cc216149e4af3fb0",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "php": ">=5.4.0"
+        },
+        "time": "2017-01-05T18:24:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bottomline.php"
+            ],
+            "psr-4": {
+                "__\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Maciej A. Czyzewski",
+                "email": "maciejanthonyczyzewski@gmail.com"
+            }
+        ],
+        "description": "A full-on PHP manipulation utility-belt that provides support for the usual functional.",
+        "keywords": [
+            "__",
+            "bottomline",
+            "functions",
+            "library",
+            "utility"
+        ]
+    },
+    {
+        "name": "paquettg/string-encode",
+        "version": "0.1.1",
+        "version_normalized": "0.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/paquettg/string-encoder.git",
+            "reference": "cf08343649701979f581c1601d01247fa3782439"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/paquettg/string-encoder/zipball/cf08343649701979f581c1601d01247fa3782439",
+            "reference": "cf08343649701979f581c1601d01247fa3782439",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2014-05-29T18:38:09+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "stringEncode": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gilles Paquette",
+                "email": "paquettg@gmail.com",
+                "homepage": "http://gillespaquette.ca"
+            }
+        ],
+        "description": "Facilitating the process of altering string encoding in PHP.",
+        "homepage": "https://github.com/paquettg/string-encoder",
+        "keywords": [
+            "charset",
+            "encoding",
+            "string"
+        ]
+    },
+    {
+        "name": "paquettg/php-html-parser",
+        "version": "1.7.0",
+        "version_normalized": "1.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/paquettg/php-html-parser.git",
+            "reference": "18845e09831dd0772b88b51e788a4f74c701224c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/paquettg/php-html-parser/zipball/18845e09831dd0772b88b51e788a4f74c701224c",
+            "reference": "18845e09831dd0772b88b51e788a4f74c701224c",
+            "shasum": ""
+        },
+        "require": {
+            "paquettg/string-encode": "~0.1.0",
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "mockery/mockery": "~0.9.0",
+            "phpunit/phpunit": "~4.8.0",
+            "satooshi/php-coveralls": "~0.6.0"
+        },
+        "time": "2016-04-06T15:24:40+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PHPHtmlParser": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gilles Paquette",
+                "email": "paquettg@gmail.com",
+                "homepage": "http://gillespaquette.ca"
+            }
+        ],
+        "description": "An HTML DOM parser. It allows you to manipulate HTML. Find tags on an HTML page with selectors just like jQuery.",
+        "homepage": "https://github.com/paquettg/php-html-parser",
+        "keywords": [
+            "dom",
+            "html",
+            "parser"
+        ]
+    },
+    {
+        "name": "campo/random-user-agent",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/joecampo/random-user-agent.git",
+            "reference": "103b9daac05c202b6fca93523dfd9dc6178f2191"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/joecampo/random-user-agent/zipball/103b9daac05c202b6fca93523dfd9dc6178f2191",
+            "reference": "103b9daac05c202b6fca93523dfd9dc6178f2191",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.0"
+        },
+        "time": "2016-11-12T21:52:27+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Campo\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Joe Campo",
+                "email": "jcampo@gmail.com"
+            }
+        ],
+        "description": "Generate real random user-agents.",
+        "keywords": [
+            "spoofing user",
+            "user agent",
+            "user agents",
+            "user-agent"
+        ]
+    },
+    {
+        "name": "buchin/google-image-grabber",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/buchin/google-image-grabber.git",
+            "reference": "ab0f3bd106468d6e374b76b38311ed4c99c815e6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/buchin/google-image-grabber/zipball/ab0f3bd106468d6e374b76b38311ed4c99c815e6",
+            "reference": "ab0f3bd106468d6e374b76b38311ed4c99c815e6",
+            "shasum": ""
+        },
+        "require": {
+            "campo/random-user-agent": "^1.2",
+            "maciejczyzewski/bottomline": "^0.0.9",
+            "paquettg/php-html-parser": "^1.7"
+        },
+        "require-dev": {
+            "kahlan/kahlan": "dev-master"
+        },
+        "time": "2017-07-08T12:17:15+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Buchin\\GoogleImageGrabber\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Halal"
+        ],
+        "authors": [
+            {
+                "name": "Mochammad Masbuchin",
+                "email": "buchin@dropsugar.com"
+            }
+        ],
+        "description": "Scrape google images"
+    }
+]

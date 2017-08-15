@@ -1,0 +1,16 @@
+{
+    "name": "buchin/google-image-stupidpie",
+    "description": "Plugin ini berfungsi mengambil data gambar dari Google, lalu kita tampilkan ke konten kita",
+    "type": "wordpress-plugin",
+    "require": {
+        "buchin/google-image-grabber": "dev-master"
+    },
+    "license": "Halal",
+    "authors": [
+        {
+            "name": "Mochammad Masbuchin",
+            "email": "buchin@dropsugar.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
