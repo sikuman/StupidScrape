@@ -16,7 +16,7 @@ define('SPP_GOOGLE_IMAGE', dirname(__FILE__));
 
 require_once(SPP_GOOGLE_IMAGE . '/vendor/autoload.php');
 
-function scrape_google_image($keyword)
+function scrape_google_content($keyword)
 {
 	$images = GoogleContentGrabber::grab($keyword);
 
