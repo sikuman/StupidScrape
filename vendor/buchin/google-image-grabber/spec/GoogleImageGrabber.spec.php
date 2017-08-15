@@ -1,13 +1,13 @@
 <?php
-use Buchin\GoogleImageGrabber\GoogleImageGrabber;
+use Buchin\GoogleContentGrabber\GoogleContentGrabber;
 
-describe('GoogleImageGrabber', function ()
+describe('GoogleContentGrabber', function ()
 {
 	describe('::grab($keyword, $options)', function ()
 	{
 		it('get images data from google images', function()
 		{
-			$images = GoogleImageGrabber::grab('makan nasi');
+			$images = GoogleContentGrabber::grab('makan nasi');
 
 			expect(count($images))->toBeGreaterThan(0);
 		});

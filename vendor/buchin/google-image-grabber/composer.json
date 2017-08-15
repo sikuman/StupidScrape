@@ -17,7 +17,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Buchin\\GoogleImageGrabber\\": "src/"
+            "Buchin\\GoogleContentGrabber\\": "src/"
         }
     },
     "require-dev": {

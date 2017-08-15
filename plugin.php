@@ -9,7 +9,7 @@ Author URI:  http://www.dojo.cc
 License:     Halal
 */
 
-use Buchin\GoogleImageGrabber\GoogleImageGrabber;
+use Buchin\GoogleContentGrabber\GoogleContentGrabber;
 
 define('SPP_GOOGLE_IMAGE', dirname(__FILE__));
 
@@ -18,7 +18,7 @@ require_once(SPP_GOOGLE_IMAGE . '/vendor/autoload.php');
 
 function scrape_google_image($keyword)
 {
-	$images = GoogleImageGrabber::grab($keyword);
+	$images = GoogleContentGrabber::grab($keyword);
 
 	return collect($images);
 }

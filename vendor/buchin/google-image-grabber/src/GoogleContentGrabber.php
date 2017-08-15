@@ -1,11 +1,11 @@
-<?php namespace Buchin\GoogleImageGrabber;
+<?php namespace Buchin\GoogleContentGrabber;
 
 use PHPHtmlParser\Dom;
 use __;
 /**
 * 
 */
-class GoogleImageGrabber
+class GoogleContentGrabber
 {
 	
 	public static function grab($keyword, $options = [])

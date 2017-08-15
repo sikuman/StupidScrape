@@ -8,5 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     '__\\' => array($vendorDir . '/maciejczyzewski/bottomline/src'),
     'Campo\\' => array($vendorDir . '/campo/random-user-agent/src'),
-    'Buchin\\GoogleImageGrabber\\' => array($vendorDir . '/buchin/google-image-grabber/src'),
+    'Buchin\\GoogleContentGrabber\\' => array($vendorDir . '/buchin/google-image-grabber/src'),
 );

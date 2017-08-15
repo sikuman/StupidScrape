@@ -19,11 +19,11 @@ composer require buchin/google-image-grabber
 ### Usage
 
 ```php
-use Buchin\GoogleImageGrabber\GoogleImageGrabber;
+use Buchin\GoogleContentGrabber\GoogleContentGrabber;
 
 $keyword = 'makan nasi';
 
-$images = GoogleImageGrabber::grab($keyword);
+$images = GoogleContentGrabber::grab($keyword);
 
 ```
 

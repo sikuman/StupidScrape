@@ -21,7 +21,7 @@ class ComposerStaticInit427ffd05df6aa7aa3757e38d9234361f
         ),
         'B' => 
         array (
-            'Buchin\\GoogleImageGrabber\\' => 26,
+            'Buchin\\GoogleContentGrabber\\' => 26,
         ),
     );
 
@@ -34,7 +34,7 @@ class ComposerStaticInit427ffd05df6aa7aa3757e38d9234361f
         array (
             0 => __DIR__ . '/..' . '/campo/random-user-agent/src',
         ),
-        'Buchin\\GoogleImageGrabber\\' => 
+        'Buchin\\GoogleContentGrabber\\' => 
         array (
             0 => __DIR__ . '/..' . '/buchin/google-image-grabber/src',
         ),

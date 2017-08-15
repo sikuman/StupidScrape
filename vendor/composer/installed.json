@@ -222,7 +222,7 @@
         "installation-source": "source",
         "autoload": {
             "psr-4": {
-                "Buchin\\GoogleImageGrabber\\": "src/"
+                "Buchin\\GoogleContentGrabber\\": "src/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
